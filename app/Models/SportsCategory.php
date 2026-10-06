@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class SportsCategory extends Model
+{
+    use HasFactory;
+    protected $table = 'sports_categories';
+    protected $fillable = [
+        'parent',
+        'category_name',
+        'status',
+    ];
+}

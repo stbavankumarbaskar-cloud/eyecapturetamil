@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class SliderModel extends Model
+{
+    use HasFactory;
+    protected $table = 'slider';
+    protected $fillable = [
+        'title',
+        'category',
+        'Image',
+        'button_txt',
+        'button_link',
+        'description',
+        'status'
+    ]; 
+}

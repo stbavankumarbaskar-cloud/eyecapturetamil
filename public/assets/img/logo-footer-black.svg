@@ -1,0 +1,112 @@
+<svg width="250" height="60" viewBox="0 0 250 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hlMetal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="50%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+    <linearGradient id="hlRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF2A5F"/>
+      <stop offset="100%" stop-color="#D90429"/>
+    </linearGradient>
+    <linearGradient id="hlShieldBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#090D16"/>
+    </linearGradient>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@800;900&amp;family=Mukta+Malar:wght@800;900&amp;family=Poppins:wght@600;700&amp;display=swap');
+      .hl-brand-main {
+        font-family: 'League Spartan', -apple-system, sans-serif;
+        font-weight: 900;
+        font-size: 22px;
+        letter-spacing: 0.5px;
+      }
+      .hl-brand-tamil {
+        font-family: 'Mukta Malar', 'Noto Sans Tamil', sans-serif;
+        font-weight: 800;
+        font-size: 21px;
+      }
+      .hl-brand-sub {
+        font-family: 'Poppins', -apple-system, sans-serif;
+        font-weight: 700;
+        font-size: 8px;
+        letter-spacing: 2.2px;
+        fill: #64748B;
+      }
+      .hl-news-badge {
+        font-family: 'League Spartan', sans-serif;
+        font-weight: 900;
+        font-size: 7.5px;
+        letter-spacing: 1.5px;
+        fill: #FFFFFF;
+      }
+    </style>
+  </defs>
+
+  <!-- Left: Shield Emblem scaled from sketch -->
+  <g transform="translate(4, 2) scale(0.155)">
+    <!-- Outer Shield -->
+    <path d="M 45 95 L 105 82 L 170 98 L 235 82 L 295 95 L 282 225 L 170 355 L 58 225 Z" fill="url(#hlMetal)" stroke="#0F172A" stroke-width="4"/>
+    <path d="M 58 105 L 110 94 L 170 108 L 230 94 L 282 105 L 270 218 L 170 338 L 70 218 Z" fill="url(#hlShieldBg)"/>
+    <line x1="170" y1="108" x2="170" y2="338" stroke="#475569" stroke-width="3"/>
+
+    <!-- Globe -->
+    <g transform="translate(170, 92)">
+      <circle cx="0" cy="0" r="54" fill="#0F172A" stroke="url(#hlMetal)" stroke-width="4"/>
+      <ellipse cx="0" cy="0" rx="50" ry="20" fill="none" stroke="#64748B" stroke-width="2.5" stroke-dasharray="4 3"/>
+      <ellipse cx="0" cy="0" rx="28" ry="50" fill="none" stroke="#64748B" stroke-width="2.5"/>
+      <line x1="-50" y1="0" x2="50" y2="0" stroke="#64748B" stroke-width="2.5"/>
+      <line x1="0" y1="-50" x2="0" y2="50" stroke="#64748B" stroke-width="2.5"/>
+      <!-- Network Nodes -->
+      <circle cx="-26" cy="-20" r="6" fill="#FF1D50"/>
+      <circle cx="0" cy="-35" r="7" fill="#FFFFFF"/>
+      <circle cx="28" cy="-18" r="6" fill="#FF1D50"/>
+      <circle cx="-12" cy="6" r="6" fill="#FFFFFF"/>
+      <circle cx="24" cy="8" r="7" fill="#FCD34D"/>
+      <!-- Orbit Swoosh -->
+      <path d="M -64 22 C -52 48, 38 42, 68 -20 C 60 -30, -26 -10, -64 22 Z" fill="url(#hlRed)"/>
+      <path d="M -64 22 C -44 40, 36 36, 66 -18" fill="none" stroke="#FFFFFF" stroke-width="3.5"/>
+      <!-- Signals -->
+      <g transform="translate(46, -48)">
+        <path d="M 0 24 A 24 24 0 0 1 24 0" fill="none" stroke="#FF1D50" stroke-width="5" stroke-linecap="round"/>
+        <path d="M 0 36 A 36 36 0 0 1 36 0" fill="none" stroke="#FCD34D" stroke-width="5" stroke-linecap="round"/>
+        <path d="M 0 48 A 48 48 0 0 1 48 0" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+      </g>
+    </g>
+
+    <!-- NEWS Ribbon -->
+    <path d="M 110 126 Q 170 117 230 126 L 224 148 Q 170 140 116 148 Z" fill="#D90429" stroke="#FFFFFF" stroke-width="3"/>
+    <text x="170" y="142" text-anchor="middle" font-family="'League Spartan', sans-serif" font-weight="900" font-size="16" letter-spacing="4" fill="#FFFFFF">NEWS</text>
+
+    <!-- I CATCH Plaque -->
+    <path d="M 14 142 L 326 142 L 314 196 L 26 196 Z" fill="url(#hlMetal)" stroke="#000000" stroke-width="3"/>
+    <path d="M 20 146 L 320 146 L 310 192 L 30 192 Z" fill="#0F172A"/>
+    <text x="170" y="182" text-anchor="middle" font-family="'League Spartan', sans-serif" font-weight="900" font-size="44" font-style="italic" fill="#FFFFFF">I CATCH</text>
+
+    <!-- தமிழ் Plaque -->
+    <path d="M 65 227 Q 170 218 275 227 L 268 277 Q 230 290 170 280 Q 110 290 72 277 Z" fill="#0B132B" stroke="url(#hlMetal)" stroke-width="4"/>
+    <path d="M 70 231 Q 170 222 270 231 L 263 273 Q 226 286 170 276 Q 114 286 77 273 Z" fill="#1C2541" stroke="#FF1D50" stroke-width="3"/>
+    <text x="170" y="268" text-anchor="middle" font-family="'Mukta Malar', sans-serif" font-weight="900" font-size="48" fill="#FFFFFF">தமிழ்</text>
+  </g>
+
+  <!-- Right: Crisp Brand Typography -->
+  <g transform="translate(60, 0)">
+    <!-- Top Micro Tagline / Category -->
+    <g transform="translate(0, 8)">
+      <rect x="0" y="2" width="40" height="12" rx="3" fill="#D90429"/>
+      <text x="20" y="11" text-anchor="middle" class="hl-news-badge">NEWS</text>
+      <circle cx="48" cy="8" r="2.5" fill="#FF1D50"/>
+      <text x="56" y="12" class="hl-brand-sub" fill="#64748B">DIGITAL NETWORK</text>
+    </g>
+
+    <!-- Main Title: "I CATCH" + "தமிழ்" -->
+    <text x="0" y="39" class="hl-brand-main">
+      <tspan fill="#080809">I CATCH </tspan>
+      <tspan fill="#FF1D50" class="hl-brand-tamil">தமிழ்</tspan>
+    </text>
+
+    <!-- Bottom Slogan -->
+    <text x="1" y="52" class="hl-brand-sub">LIVE NEWS &amp; MEDIA</text>
+    <rect x="126" y="49" width="36" height="2" rx="1" fill="#FF1D50" opacity="0.8"/>
+  </g>
+</svg>
